@@ -1,5 +1,5 @@
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/20/solid'
-import profileImage from '@/images/1652897803745.jpg'
+import profileImage from '/1652897803745.jpg'
 import { LinkedInIcon } from './SocialIcons'
 const profile = {
   name: 'Coulton Fraser',
