@@ -8,5 +8,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://coultonf.github.io',
+  base: '/coultonf',
   integrations: [react(), tailwind()],
 });
