@@ -1,6 +1,6 @@
 ---
-import profile from "../images/1652897803745.jpg";
-import Header from '../components/Header'
+import Header from '@/components/Header'
+import { About } from '@/components/About'
 ---
 
 <html lang="en">
@@ -12,8 +12,9 @@ import Header from '../components/Header'
     <title>Astro</title>
   </head>
   <body>
-    <Header />
+    <Header client:load />
     <main>
+      <About client:load />
     </main>
     <footer></footer>
   </body>
