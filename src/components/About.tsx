@@ -21,12 +21,12 @@ export const About = () => {
         <div className="h-10 w-full bg-stripes bg-stripes-white bg-red-500"></div> */}
       </div>
       <div className="grid grid-cols-6 gap-4 place-items-center ">
-        <p className="sm:rotate-45 md:rotate-0">Hardware</p>
-        <p className="sm:rotate-45 md:rotate-0">Infrastructure</p>
-        <p className="sm:rotate-45 md:rotate-0">Backend</p>
-        <p className="sm:rotate-45 md:rotate-0">Frontend</p>
-        <p className="sm:rotate-45 md:rotate-0">Design</p>
-        <p className="sm:rotate-45 md:rotate-0">Leadership</p>
+        <p className="rotate-45 sm:rotate-0">Hardware</p>
+        <p className="rotate-45 sm:rotate-0">Infrastructure</p>
+        <p className="rotate-45 sm:rotate-0">Backend</p>
+        <p className="rotate-45 sm:rotate-0">Frontend</p>
+        <p className="rotate-45 sm:rotate-0">Design</p>
+        <p className="rotate-45 sm:rotate-0">Leadership</p>
       </div>
     </div>
   );
