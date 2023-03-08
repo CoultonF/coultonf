@@ -1,32 +1,56 @@
+import { clsx } from "clsx";
+import { Tab } from "@headlessui/react";
+import { Fragment } from "react";
+type TabTypes = {
+  tabName: string;
+  tabContent: string;
+};
 export const About = () => {
+  const tabs: TabTypes[] = [
+    { tabName: "Infrastructure", tabContent: "This is the infra tab." },
+    { tabName: "Backend", tabContent: "This is the backend tab." },
+    { tabName: "Frontend", tabContent: "This is the frontend tab." },
+    { tabName: "Leadership", tabContent: "This is the leadership tab." },
+  ];
   return (
     <div className="flex flex-col mx-auto container px-4 py-5 max-w-3xl gap-10 bg-stripes-red">
       <p className="text-xl">
         I'm a software developer that brings the full-stack together. I jump
-        anywhere between user interface and system architecure. The domain of
-        full-stack is rather large, so here is a visualization to better explain
-        my expertise.
+        anywhere between user interface and system architecure. Take a look at
+        what I do best when it comes to developing software solutions in the
+        tabs below.
       </p>
-      <div className="grid grid-cols-6 gap-1 place-items-center items-end ">
-        <div className="h-12 w-full bg-stripes bg-stripes-gray-900 bg-white"></div>
-        <div className="h-14 w-full bg-stripes bg-stripes-gray-900 bg-white"></div>
-        <div className="h-40 w-full flex-1 bg-stripes bg-stripes-gray-900 bg-white"></div>
-        <div className="h-40 w-full flex-1 bg-stripes bg-stripes-gray-900 bg-white"></div>
-        <div className="h-20 w-full flex-1 bg-stripes bg-stripes-gray-900 bg-white"></div>
-        <div className="h-10 w-full flex-1 bg-stripes bg-stripes-gray-900 bg-white"></div>
-        {/* <div className="h-10 w-full bg-stripes bg-stripes-white bg-red-500"></div>
-        <div className="h-10 w-full bg-stripes bg-stripes-white bg-red-500"></div>
-        <div className="h-10 w-full bg-stripes bg-stripes-white bg-red-500"></div>
-        <div className="h-10 w-full bg-stripes bg-stripes-white bg-red-500"></div>
-        <div className="h-10 w-full bg-stripes bg-stripes-white bg-red-500"></div> */}
-      </div>
-      <div className="grid grid-cols-6 gap-4 place-items-center ">
-        <p className="rotate-45 sm:rotate-0">Hardware</p>
-        <p className="rotate-45 sm:rotate-0">Infrastructure</p>
-        <p className="rotate-45 sm:rotate-0">Backend</p>
-        <p className="rotate-45 sm:rotate-0">Frontend</p>
-        <p className="rotate-45 sm:rotate-0">Design</p>
-        <p className="rotate-45 sm:rotate-0">Leadership</p>
+      <div className="block">
+        <Tab.Group>
+          <Tab.List
+            className="isolate flex divide-x divide-gray-200 rounded-lg shadow"
+            aria-label="Tabs"
+          >
+            {tabs.map((t, idx) => (
+              <Tab as={Fragment}>
+                {({ selected }) => (
+                  <div
+                    className={clsx(
+                      selected
+                        ? "text-white bg-slate-500"
+                        : "text-gray-500 hover:text-gray-700 hover:bg-gray-50",
+                      idx === 0 && "rounded-l-lg",
+                      idx === tabs.length - 1 && "rounded-r-lg",
+                      "group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center text-sm font-medium  focus:z-1 focus:outline-none outline-none"
+                    )}
+                  >
+                    {t.tabName}
+                  </div>
+                )}
+              </Tab>
+            ))}
+          </Tab.List>
+          <Tab.Panels className="mt-4 p-4 border-gray-300 rounded-lg border-solid border-[1px]">
+            {tabs.map((t, idx) => (
+              <Tab.Panel>{t.tabContent}</Tab.Panel>
+            ))}
+          </Tab.Panels>
+        </Tab.Group>
       </div>
     </div>
   );

@@ -991,6 +991,8 @@ module.exports = {
     },
   },
   plugins: [
+    require("@tailwindcss/forms"),
+    require("@headlessui/tailwindcss"),
     function ({ addUtilities, theme }) {
       const utilities = {
         ".bg-stripes": {
@@ -1017,7 +1019,6 @@ module.exports = {
           addColor(name, colors[name]);
         }
       }
-
       addUtilities(utilities);
     },
   ],
