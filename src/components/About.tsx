@@ -32,11 +32,11 @@ export const About = () => {
                   <p
                     className={clsx(
                       selected
-                        ? "text-slate-200 bg-slate-500 focus:bg-slate-500"
-                        : "text-gray-500 hover:text-gray-700 hover:bg-gray-50",
+                        ? "text-slate-200 bg-slate-500 "
+                        : "text-gray-500 hover:text-gray-700 hover:bg-gray-50 bg-white",
                       idx === 0 && "rounded-l-lg",
                       idx === tabs.length - 1 && "rounded-r-lg",
-                      "group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center text-sm font-medium  focus:z-1 focus:outline-none outline-none"
+                      "group relative min-w-0 flex-1 overflow-hidden  py-4 px-4 text-center text-sm font-medium  focus:z-1 focus:outline-none outline-none"
                     )}
                   >
                     {t.tabName}
