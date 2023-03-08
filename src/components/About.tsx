@@ -32,7 +32,7 @@ export const About = () => {
                   <p
                     className={clsx(
                       selected
-                        ? "text-slate-200 bg-slate-500"
+                        ? "text-slate-200 bg-slate-500 focus:bg-slate-500"
                         : "text-gray-500 hover:text-gray-700 hover:bg-gray-50",
                       idx === 0 && "rounded-l-lg",
                       idx === tabs.length - 1 && "rounded-r-lg",
