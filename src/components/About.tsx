@@ -29,7 +29,7 @@ export const About = () => {
             {tabs.map((t, idx) => (
               <Tab as={Fragment}>
                 {({ selected }) => (
-                  <div
+                  <p
                     className={clsx(
                       selected
                         ? "text-white bg-slate-500"
@@ -40,7 +40,7 @@ export const About = () => {
                     )}
                   >
                     {t.tabName}
-                  </div>
+                  </p>
                 )}
               </Tab>
             ))}
