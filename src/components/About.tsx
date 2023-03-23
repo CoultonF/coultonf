@@ -14,16 +14,43 @@ export const About = () => {
   ];
   return (
     <div className="flex flex-col mx-auto container px-4 py-5 max-w-3xl gap-10 bg-stripes-red">
-      <p className="text-xl">
-        I'm a software developer that brings the full-stack together. I jump
-        anywhere between user interface and system architecure. Take a look at
-        what I do best when it comes to developing software solutions in the
-        tabs below.
+      <blockquote>
+        <p className="text-2xl">
+          “A software developer in Calgary that <em>lives</em> on open-source
+          software.”
+        </p>
+      </blockquote>
+      <p>
+        Currently working on a diverse team that is utilizing React and FastAPI
+        full-stack development to solve complex land problems in the Oil & Gas
+        sector across North America.
       </p>
+      <p>
+        When it comes to technology, I am always eager to use the most promising
+        technology available. This website was built to accerate my own
+        understanding of{" "}
+        <a href="https://astro.build/" className="text-slate-500 underline">
+          Astro.js
+        </a>
+        {", "}
+        <a href="https://react.dev/" className="text-slate-500 underline">
+          React
+        </a>
+        , and{" "}
+        <a href="https://tailwindcss.com/" className="text-slate-500 underline">
+          TailwindCSS
+        </a>
+        . It was also my learning environment for dialing in a{" "}
+        <a href="https://neovim.io/" className="text-slate-500 underline">
+          Neovim
+        </a>{" "}
+        workflow.
+      </p>
+      <p></p>
       <div className="block">
         <Tab.Group>
           <Tab.List
-            className="isolate flex divide-x divide-gray-200 rounded-lg shadow"
+            className="sm:flex divide-gray-200 rounded-lg shadow"
             aria-label="Tabs"
           >
             {tabs.map((t, idx) => (
