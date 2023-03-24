@@ -26,9 +26,8 @@ export const About = () => {
         sector across North America.
       </p>
       <p>
-        When it comes to technology, I am always eager to use the most promising
-        technology available. This website was built to accerate my own
-        understanding of{" "}
+        I am always eager to use the most promising technology available. This
+        website was built to accerate my own understanding of{" "}
         <a href="https://astro.build/" className="text-slate-500 underline">
           Astro.js
         </a>
