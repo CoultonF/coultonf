@@ -18,15 +18,12 @@ def tidepool_loader() -> None:
     response = requests.request("POST", url, headers=headers, data=payload)
     datasets = ["physicalActivity", "cbg",
                 "food", "bolus", "basal", "deviceEvent"]
-    comma = ','
     token = response.headers['x-tidepool-session-token']
     userid = response.json()['userid']
     for dataset_type in datasets:
 
-        url = f"https://api.tidepool.org/data/{userid} \
-        ?{'startDate='+start_date_str if dataset_type != 'physicalActivity' else 'latest=true'} \
-        &type={dataset_type}"
-
+        url = f"https://api.tidepool.org/data/{userid}?{'startDate='+start_date_str if dataset_type != 'physicalActivity' else 'latest=true'}&type={dataset_type}"
+        print(url)
         payload = {}
         headers = {
             'X-Tidepool-Session-Token': token,
@@ -34,8 +31,6 @@ def tidepool_loader() -> None:
 
         response = requests.request("GET", url, headers=headers, data=payload)
 
-        documents = response.json()
-        print(documents)
         data = json.dumps(response.json())
         with open(f"{dataset_type}.json", "w") as f:
             f.write(data)
