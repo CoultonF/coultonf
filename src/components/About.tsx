@@ -45,39 +45,6 @@ export const About = () => {
         </a>{" "}
         workflow.
       </p>
-      <p></p>
-      <div className="block">
-        <Tab.Group>
-          <Tab.List
-            className="sm:flex divide-gray-200 rounded-lg shadow"
-            aria-label="Tabs"
-          >
-            {tabs.map((t, idx) => (
-              <Tab as={Fragment}>
-                {({ selected }) => (
-                  <p
-                    className={clsx(
-                      selected
-                        ? "text-slate-200 bg-slate-500 "
-                        : "text-gray-500 hover:text-gray-700 hover:bg-gray-50 bg-white",
-                      idx === 0 && "rounded-l-lg",
-                      idx === tabs.length - 1 && "rounded-r-lg",
-                      "group relative min-w-0 flex-1 overflow-hidden  py-4 px-4 text-center text-sm font-medium  focus:z-1 focus:outline-none outline-none"
-                    )}
-                  >
-                    {t.tabName}
-                  </p>
-                )}
-              </Tab>
-            ))}
-          </Tab.List>
-          <Tab.Panels className="mt-4 p-4 border-gray-300 rounded-lg border-solid border-[1px]">
-            {tabs.map((t, idx) => (
-              <Tab.Panel>{t.tabContent}</Tab.Panel>
-            ))}
-          </Tab.Panels>
-        </Tab.Group>
-      </div>
     </div>
   );
 };
