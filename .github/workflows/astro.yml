@@ -26,7 +26,7 @@ jobs:
         with: 
           python-version: 3.11
       - name: Run python
-        working-directory: ./tidepool_loader
+        working-directory: tidepool_loader
         run: |
             poetry install
             poetry shell
