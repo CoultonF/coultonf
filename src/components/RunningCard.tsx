@@ -1,6 +1,7 @@
 import { Tab } from "@headlessui/react";
 import { z } from "zod";
 import physicalActivity from "../../tidepool_loader/physicalActivity.json";
+import bolus from "../../tidepool_loader/bolus.json";
 import glucose from "../../tidepool_loader/cbg.json";
 import { zDate, zDateTime } from "./zodDates";
 const dateOptions = {
@@ -53,9 +54,23 @@ const GlucoseSchema = z
     };
   });
 
+const BolusSchema = z.object({
+normal: z.number(),
+time: zDateTime,
+}).transform( v => {
+  const {time, ...rest} = v;
+  return {
+date: new Date(v.time).toLocaleDateString("en-US", dateOptions),
+time: new Date(v.time).toLocaleTimeString("en-US", timeOptions),
+...rest
+}
+})
+
+
 export const RunningCard = () => {
   const runningStats = z.array(RunningSchema).parse(physicalActivity);
   const glucoseStats = z.array(GlucoseSchema).parse(glucose);
+  const bolusStats = z.array(BolusSchema).parse(bolus)
   const stats = [
     {
       name: "Running",
@@ -71,9 +86,9 @@ export const RunningCard = () => {
     },
     {
       name: "Insulin Dosage",
-      stat: "24.57%",
-      date: new Date(Date.now()).toLocaleString("en-US"),
-      time: runningStats[0].time,
+      stat: `${bolusStats[0].normal} units`,
+      date: bolusStats[0].date,
+      time: bolusStats[0].time,
     },
   ];
   return (

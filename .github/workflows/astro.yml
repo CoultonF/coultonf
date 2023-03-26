@@ -21,6 +21,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Build ptyhon
+        uses: actions/setup-python@v4
+        working-directory: ./tidepool_loader
+        with: 
+          python-version: 3.11
+          run: |
+            poetry install
+            poetry shell
+            python -m tidepool_loader.main
       - name: Checkout your repository using git
         uses: actions/checkout@v3
       - name: Install, build, and upload your site
