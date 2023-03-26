@@ -28,12 +28,13 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v3
       - name: Run python
-        working-directory: .
-        run: ls 
-        shell: sh
+        working-directory: ./tidepool_loader
+        run: poetry install  
       - name: Run python2
-        working-directory: .
-        run: pwd 
+        working-directory: tidepool_loader
+        run: |
+          poetry shell
+          python -m tidepool_loader.main
         shell: sh
       - name: Install, build, and upload your site
         uses: withastro/action@v0
