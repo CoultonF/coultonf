@@ -25,12 +25,16 @@ jobs:
         uses: actions/setup-python@v4
         with: 
           python-version: 3.11
+      - name: Checkout your repository using git
+        uses: actions/checkout@v3
       - name: Run python
         working-directory: .
         run: ls 
         shell: sh
-      - name: Checkout your repository using git
-        uses: actions/checkout@v3
+      - name: Run python2
+        working-directory: .
+        run: pwd 
+        shell: sh
       - name: Install, build, and upload your site
         uses: withastro/action@v0
         with:
