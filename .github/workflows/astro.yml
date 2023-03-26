@@ -27,6 +27,7 @@ jobs:
           python-version: 3.11
       - name: Run python
         run: |
+            pwd
             cd tidepool_loader
             poetry install
             poetry shell
