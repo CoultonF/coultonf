@@ -25,12 +25,16 @@ jobs:
         uses: actions/setup-python@v4
         with: 
           python-version: 3.11
+      - name: Checkout your repository using git
+        uses: actions/checkout@v3
+      - uses: snok/install-poetry@v1
+        with:
+          version: 1.1.12
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+      - name: Run python
         working-directory: ./tidepool_loader
-        run: |
-          poetry install
-          poetry shell
-          python -m tidepool_loader.main
-        shell: sh
+        run: poetry install  
       - name: Install, build, and upload your site
         uses: withastro/action@v0
         with:
