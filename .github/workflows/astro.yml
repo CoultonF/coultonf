@@ -36,8 +36,7 @@ jobs:
         working-directory: ./tidepool_loader
         run: |
           poetry install  
-          poetry shell
-          python -m tidepool_loader.main
+          poetry run python -m tidepool_loader.main
       - name: Install, build, and upload your site
         uses: withastro/action@v0
         with:
