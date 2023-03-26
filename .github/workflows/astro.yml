@@ -34,6 +34,8 @@ jobs:
           virtualenvs-in-project: true
       - name: Run python
         working-directory: ./tidepool_loader
+        env:
+          BASE64_AUTH: ${{secrets.BASE64_AUTH}}
         run: |
           poetry install  
           poetry run python -m tidepool_loader.main
