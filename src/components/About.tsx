@@ -11,7 +11,7 @@ export const About = () => {
     <div className="flex flex-col mx-auto container px-4 py-5 max-w-3xl gap-10 bg-stripes-red">
       <blockquote>
         <p className="text-2xl">
-          "A software developer in Calgary that <<em>lives</em>em>lives</em> on open-source
+          "A software developer in Calgary that <em>lives</em>em>lives</em> on open-source
           software."
         </p>
       </blockquote>
