@@ -23,13 +23,10 @@ jobs:
     steps:
       - name: Build ptyhon
         uses: actions/setup-python@v4
-        defaults:
-          run:
-            shell: bash
-            working-directory: ./tidepool_loader
         with: 
           python-version: 3.11
           run: |
+            cd tidepool_loader
             poetry install
             poetry shell
             python -m tidepool_loader.main
