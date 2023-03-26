@@ -3,25 +3,29 @@ import { z } from "zod";
 import physicalActivity from "../../tidepool_loader/physicalActivity.json";
 import bolus from "../../tidepool_loader/bolus.json";
 import glucose from "../../tidepool_loader/cbg.json";
+import food from "../../tidepool_loader/food.json";
 import { zDate, zDateTime } from "./zodDates";
+
 const dateOptions = {
   weekday: "long",
   year: "numeric",
   month: "long",
   day: "numeric",
 } as const;
+
 const timeOptions = {
   dayPeriod: undefined,
   hour: "numeric",
   minute: "numeric",
   second: undefined,
 } as const;
+
 const DistanceSchema = z.object({
   units: z.string(),
   value: z.number(),
 });
-const RunningSchema = z
-  .object({
+
+const RunningSchema = z.object({
     distance: DistanceSchema,
     time: zDateTime,
   })
@@ -38,8 +42,7 @@ const RunningSchema = z
     };
   });
 
-const GlucoseSchema = z
-  .object({
+const GlucoseSchema = z.object({
     time: zDateTime,
     units: z.string(),
     value: z.number(),
@@ -55,22 +58,42 @@ const GlucoseSchema = z
   });
 
 const BolusSchema = z.object({
-normal: z.number(),
-time: zDateTime,
+  normal: z.number(),
+  time: zDateTime,
 }).transform( v => {
   const {time, ...rest} = v;
   return {
-date: new Date(v.time).toLocaleDateString("en-US", dateOptions),
-time: new Date(v.time).toLocaleTimeString("en-US", timeOptions),
-...rest
-}
+    date: new Date(v.time).toLocaleDateString("en-US", dateOptions),
+    time: new Date(v.time).toLocaleTimeString("en-US", timeOptions),
+    ...rest
+  }
 })
 
+const NutritionSchema = z.object({
+    carbohydrate: z.object({
+       net: z.number(),
+       units: z.string()
+      }),
+    })
+
+const FoodSchema = z.object({
+nutrition: NutritionSchema,
+time: zDateTime
+}).transform(v => {
+  const {nutrition, ...rest} = v
+  return {
+    carbohydrate: nutrition.carbohydrate.net,
+    units: nutrition.carbohydrate.units,
+    date: new Date(v.time).toLocaleDateString("en-US", dateOptions),
+    time: new Date(v.time).toLocaleTimeString("en-US", timeOptions),
+}
+})
 
 export const RunningCard = () => {
   const runningStats = z.array(RunningSchema).parse(physicalActivity);
   const glucoseStats = z.array(GlucoseSchema).parse(glucose);
   const bolusStats = z.array(BolusSchema).parse(bolus)
+  const foodStats = z.array(FoodSchema).parse(food)
   const stats = [
     {
       name: "Running",
@@ -89,6 +112,12 @@ export const RunningCard = () => {
       stat: `${bolusStats[0].normal} units`,
       date: bolusStats[0].date,
       time: bolusStats[0].time,
+    },
+    {
+      name: "Carbohydrates Eaten",
+      stat: `${foodStats[0].carbohydrate} ${foodStats[0].units}`,
+      date: foodStats[0].date,
+      time: foodStats[0].time,
     },
   ];
   return (
