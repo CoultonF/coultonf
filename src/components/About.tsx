@@ -18,7 +18,7 @@ export const About = () => {
         <a
           href="https://astro.build/"
           target="_blank"
-          jclassName="text-slate-500 underline"
+          className="text-slate-500 underline"
         >
           Astro.js
         </a>
