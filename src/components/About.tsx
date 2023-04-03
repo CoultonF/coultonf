@@ -14,8 +14,9 @@ export const About = () => {
       </p>
       <p>
         I am always eager to use the most promising technology available. This
-        website was built to accerate my own understanding of{" "}
+        website was built to accelerate my own understanding of{" "}
         <a
+          rel="noopener"
           href="https://astro.build/"
           target="_blank"
           className="text-slate-500 underline"
@@ -24,6 +25,7 @@ export const About = () => {
         </a>
         {", "}
         <a
+          rel="noopener"
           href="https://react.dev/"
           target="_blank"
           className="text-slate-500 underline"
@@ -32,6 +34,7 @@ export const About = () => {
         </a>
         , and{" "}
         <a
+          rel="noopener"
           href="https://tailwindcss.com/"
           target="_blank"
           className="text-slate-500 underline"
@@ -40,6 +43,7 @@ export const About = () => {
         </a>
         . It was also my learning environment for dialing in a{" "}
         <a
+          rel="noopener"
           href="https://neovim.io/"
           target="_blank"
           className="text-slate-500 underline"
@@ -55,6 +59,7 @@ export const About = () => {
       <p>
         I am a{" "}
         <a
+          rel="noopener"
           href="https://diabetes.ca/about-diabetes/type-1"
           className="text-slate-500 underline"
           target="_blank"
