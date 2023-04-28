@@ -8,12 +8,14 @@ from datetime import datetime, timedelta
 
 def tidepool_loader() -> None:
 
-    url = "https://api.tidepool.org/auth/login"
     starting_date = datetime.now() - timedelta(days=1)
     start_date_str = starting_date.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+    url = "https://api.tidepool.org/auth/login"
+
     payload = {}
     headers = {
-        'Authorization': settings.base64_auth}
+        'Authorization': settings.base64_auth
+    }
 
     response = requests.request("POST", url, headers=headers, data=payload)
     datasets = ["physicalActivity", "cbg",
