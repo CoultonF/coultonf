@@ -41,8 +41,8 @@ def tidepool_loader() -> None:
                 data = json.dumps(response.json())
                 data_json = response.json()
                 activityName = data_json[0]['name']
-                activityDate = datetime.strptime(data_json[0]['time'], "%Y-%m-%dT%H:%M:%SZ").date() - timedelta(minutes=1)
-                activityDate = activityDate.strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+                activityDate = datetime.strptime(data_json[0]['time'], "%Y-%m-%dT%H:%M:%S[.%f]").date() - timedelta(minutes=1)
+                activityDate = activityDate.strftime("%Y-%m-%dT%H:%M:%S[.%f]")
 
             with open(f"{dataset_type}.json", "w") as f:
                 f.write(data)
