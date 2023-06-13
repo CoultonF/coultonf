@@ -1,1 +1,43 @@
-[{"distance": {"units": "miles", "value": 5.251524401895629}, "duration": {"units": "seconds", "value": 2861.08562207222}, "energy": {"units": "kilocalories", "value": 576.3595958084725}, "id": "d8e1ab50baa647629c6e644c66e6bab4", "name": "Running - 5.25 miles", "origin": {"id": "4C71C099-1611-454B-A3B9-F7A229DE7B5D", "name": "com.apple.HealthKit", "payload": {"device": {"hardwareVersion": "Watch6,11", "manufacturer": "Apple Inc.", "model": "Watch", "name": "Apple Watch", "softwareVersion": "9.3.1"}, "sourceRevision": {"operatingSystemVersion": "9.3.1", "productType": "Watch6,11", "source": {"bundleIdentifier": "com.apple.health.224ED498-E6D0-4E6F-B6E9-E278FFFC2D95", "name": "Coulton\u2019s Apple\u00a0Watch"}, "version": "9.3.1"}}, "type": "service"}, "payload": {"HKAverageMETs": "10.5783 kcal/hr\u00b7kg", "HKElevationAscended": "3544 cm", "HKIndoorWorkout": 0, "HKTimeZone": "America/Edmonton", "HKWeatherHumidity": "7800 %", "HKWeatherTemperature": "28.868 degF"}, "time": "2023-04-02T15:23:53.137Z", "type": "physicalActivity", "uploadId": "6c9617f19a2b5a4406186219208a2951"}]
+[
+  {
+    "distance": { "units": "miles", "value": 5.964147717525206 },
+    "duration": { "units": "seconds", "value": 3335.477168917656 },
+    "energy": { "units": "kilocalories", "value": 692.5741529921509 },
+    "id": "779003cbb98a893ecbc8c8022a825925",
+    "name": "Running - 5.96 miles",
+    "origin": {
+      "id": "1BA58130-AA0D-488F-9097-55839B394580",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "hardwareVersion": "Watch6,11",
+          "manufacturer": "Apple Inc.",
+          "model": "Watch",
+          "name": "Apple Watch",
+          "softwareVersion": "9.5.1"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "9.5.1",
+          "productType": "Watch6,11",
+          "source": {
+            "bundleIdentifier": "com.apple.health.15BB3925-B09E-4EBB-9D2C-1FE9294EBF35",
+            "name": "Coulton\u2019s Apple\u00a0Watch"
+          },
+          "version": "9.5.1"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKAverageMETs": "11.1194 kcal/hr\u00b7kg",
+      "HKElevationAscended": "2648 cm",
+      "HKIndoorWorkout": 0,
+      "HKTimeZone": "America/Edmonton",
+      "HKWeatherHumidity": "2100 %",
+      "HKWeatherTemperature": "83.354 degF"
+    },
+    "time": "2023-06-08T00:10:56.995Z",
+    "type": "physicalActivity",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  }
+]
