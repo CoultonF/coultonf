@@ -1,1 +1,265 @@
-[{"id": "9d36eabca3d751e8abe5062b713775c2", "nutrition": {"carbohydrate": {"net": 15, "units": "grams"}}, "origin": {"id": "41DA4D09-788C-4F7B-983F-98ABAA98B3ED", "name": "com.apple.HealthKit", "payload": {"sourceRevision": {"operatingSystemVersion": "16.4.1", "productType": "iPhone13,1", "source": {"bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop", "name": "Loop"}, "version": "2"}}, "type": "service"}, "payload": {"HKMetadataKeySyncIdentifier": "3F299C2C-AFDC-4130-BDC5-033FA17A7BF0", "HKMetadataKeySyncVersion": 1, "com.loopkit.AbsorptionTime": 10800, "com.loopkit.CarbKit.HKMetadataKey.UserCreatedDate": "2023-06-10T03:39:07.013Z"}, "time": "2023-06-10T03:39:07.013Z", "type": "food", "uploadId": "6c9617f19a2b5a4406186219208a2951"}, {"id": "9bbec5171eff6c29e4fe9f8c6ad4796b", "nutrition": {"carbohydrate": {"net": 45, "units": "grams"}}, "origin": {"id": "5D11A985-B261-4C61-92F8-912B4597629C", "name": "com.apple.HealthKit", "payload": {"sourceRevision": {"operatingSystemVersion": "16.4.1", "productType": "iPhone13,1", "source": {"bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop", "name": "Loop"}, "version": "2"}}, "type": "service"}, "payload": {"HKMetadataKeySyncIdentifier": "8043ACCA-D491-42F5-AD04-89670B877890", "HKMetadataKeySyncVersion": 1, "com.loopkit.AbsorptionTime": 10800, "com.loopkit.CarbKit.HKMetadataKey.UserCreatedDate": "2023-06-10T02:07:25.532Z"}, "time": "2023-06-10T02:07:22.843Z", "type": "food", "uploadId": "6c9617f19a2b5a4406186219208a2951"}, {"id": "7bd6a4649386237e73868734e2540cbd", "nutrition": {"carbohydrate": {"net": 30, "units": "grams"}}, "origin": {"id": "875C3749-A32F-4CDB-96E0-DEE1B37533DE", "name": "com.apple.HealthKit", "payload": {"sourceRevision": {"operatingSystemVersion": "16.4.1", "productType": "iPhone13,1", "source": {"bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop", "name": "Loop"}, "version": "2"}}, "type": "service"}, "payload": {"HKMetadataKeySyncIdentifier": "D01C4601-761F-4E7C-8C27-1FEA925A941C", "HKMetadataKeySyncVersion": 1, "com.loopkit.AbsorptionTime": 10800, "com.loopkit.CarbKit.HKMetadataKey.UserCreatedDate": "2023-06-09T23:51:12.718Z"}, "time": "2023-06-09T23:51:08.944Z", "type": "food", "uploadId": "6c9617f19a2b5a4406186219208a2951"}, {"id": "da34bdc702da60dc2fd16b3dcfde2a02", "nutrition": {"carbohydrate": {"net": 15, "units": "grams"}}, "origin": {"id": "1E746523-5EA5-496B-9557-F1FE3EF5409E", "name": "com.apple.HealthKit", "payload": {"sourceRevision": {"operatingSystemVersion": "16.4.1", "productType": "iPhone13,1", "source": {"bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop", "name": "Loop"}, "version": "2"}}, "type": "service"}, "payload": {"HKMetadataKeySyncIdentifier": "D18D2D74-AE68-4E11-B36D-F8FB8F446395", "HKMetadataKeySyncVersion": 1, "com.loopkit.AbsorptionTime": 10800, "com.loopkit.CarbKit.HKMetadataKey.UserCreatedDate": "2023-06-09T21:42:33.669Z"}, "time": "2023-06-09T21:42:29.93Z", "type": "food", "uploadId": "6c9617f19a2b5a4406186219208a2951"}, {"id": "855ccf88d4b10cd93ee806e1dc0b7fb9", "nutrition": {"carbohydrate": {"net": 90, "units": "grams"}}, "origin": {"id": "C0EF8245-C594-4B9C-84E8-9D268BD4040C", "name": "com.apple.HealthKit", "payload": {"sourceRevision": {"operatingSystemVersion": "16.4.1", "productType": "iPhone13,1", "source": {"bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop", "name": "Loop"}, "version": "2"}}, "type": "service"}, "payload": {"HKMetadataKeySyncIdentifier": "55848155-E816-4C82-929A-BCA2489346F6", "HKMetadataKeySyncVersion": 1, "com.loopkit.AbsorptionTime": 10800, "com.loopkit.CarbKit.HKMetadataKey.UserCreatedDate": "2023-06-09T18:03:48.131Z"}, "time": "2023-06-09T18:03:44.413Z", "type": "food", "uploadId": "6c9617f19a2b5a4406186219208a2951"}]
+[
+  {
+    "id": "7e6ede4356737c68293675d153c6de4b",
+    "nutrition": { "carbohydrate": { "net": 45, "units": "grams" } },
+    "origin": {
+      "id": "3AABB47D-94FD-48A5-A34D-8859AC27BFFA",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKMetadataKeySyncIdentifier": "1C5827FD-382A-4864-96AB-0AD9D5461CF4",
+      "HKMetadataKeySyncVersion": 1,
+      "com.loopkit.AbsorptionTime": 10800,
+      "com.loopkit.CarbKit.HKMetadataKey.UserCreatedDate": "2023-06-14T02:38:01.199Z"
+    },
+    "time": "2023-06-14T02:37:54.472Z",
+    "type": "food",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "ef452e26f2df09aa98025c54b6d1d29e",
+    "nutrition": { "carbohydrate": { "net": 43, "units": "grams" } },
+    "origin": {
+      "id": "CAFC1A60-01B1-4F32-B8CD-663A79A62928",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKMetadataKeySyncIdentifier": "E4177B2A-0413-4FEF-AB81-2D4EA7C69AA5",
+      "HKMetadataKeySyncVersion": 1,
+      "com.loopkit.AbsorptionTime": 10800,
+      "com.loopkit.CarbKit.HKMetadataKey.UserCreatedDate": "2023-06-14T01:18:01.959Z"
+    },
+    "time": "2023-06-14T01:17:58.954Z",
+    "type": "food",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "78ac9016c4d7230dbe7f3b9113dc895c",
+    "nutrition": { "carbohydrate": { "net": 12, "units": "grams" } },
+    "origin": {
+      "id": "A9919F22-1262-48F0-BD64-099ED99D1C4B",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKMetadataKeySyncIdentifier": "FB09E792-67E3-4824-AEAE-581D8A142F2A",
+      "HKMetadataKeySyncVersion": 1,
+      "com.loopkit.AbsorptionTime": 10800,
+      "com.loopkit.CarbKit.HKMetadataKey.UserCreatedDate": "2023-06-13T22:08:12.344Z"
+    },
+    "time": "2023-06-13T22:08:08.02Z",
+    "type": "food",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "d142879f1b903cd96cd9a8d8716339e8",
+    "nutrition": { "carbohydrate": { "net": 95, "units": "grams" } },
+    "origin": {
+      "id": "3B5F7007-BCB8-4013-A88C-AAC9BA850B5E",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKMetadataKeySyncIdentifier": "D754A79E-B5CD-4AEF-A2A2-7AD7C57BF069",
+      "HKMetadataKeySyncVersion": 1,
+      "com.loopkit.AbsorptionTime": 10800,
+      "com.loopkit.CarbKit.HKMetadataKey.UserCreatedDate": "2023-06-13T18:12:07.183Z"
+    },
+    "time": "2023-06-13T18:12:00.337Z",
+    "type": "food",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "3fcee7cd5521043673dfa41f1e409b38",
+    "nutrition": { "carbohydrate": { "net": 10, "units": "grams" } },
+    "origin": {
+      "id": "C0A7BF8F-FFD1-465F-8C86-B424101EE8DD",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKMetadataKeySyncIdentifier": "656948CC-F081-4584-A049-E458AE9541F7",
+      "HKMetadataKeySyncVersion": 1,
+      "com.loopkit.AbsorptionTime": 10800,
+      "com.loopkit.CarbKit.HKMetadataKey.UserCreatedDate": "2023-06-13T16:15:03.127Z"
+    },
+    "time": "2023-06-13T16:15:00.873Z",
+    "type": "food",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "380189f4b8677011d8594977bda2ed7c",
+    "name": "\ud83c\udf2e",
+    "nutrition": { "carbohydrate": { "net": 10, "units": "grams" } },
+    "origin": {
+      "id": "347F836C-6BA1-4466-9D4A-7DD36114EB4E",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKMetadataKeySyncIdentifier": "BBA0AAC4-09C3-4983-8698-26805C8BE2D9",
+      "HKMetadataKeySyncVersion": 1,
+      "com.loopkit.AbsorptionTime": 10800,
+      "com.loopkit.CarbKit.HKMetadataKey.UserCreatedDate": "2023-06-13T03:23:41.608Z"
+    },
+    "time": "2023-06-13T03:23:40.041Z",
+    "type": "food",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "4843b49e2801827b874393a6656daded",
+    "name": "\ud83c\udf2e",
+    "nutrition": { "carbohydrate": { "net": 15, "units": "grams" } },
+    "origin": {
+      "id": "8653DCD4-32F2-4B1A-B59A-FE59978A4A7B",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKMetadataKeySyncIdentifier": "827BD2EF-60AE-41F8-B0F9-0817E1E1CE41",
+      "HKMetadataKeySyncVersion": 1,
+      "com.loopkit.AbsorptionTime": 10800,
+      "com.loopkit.CarbKit.HKMetadataKey.UserCreatedDate": "2023-06-13T03:19:37.321Z"
+    },
+    "time": "2023-06-13T03:19:35.66Z",
+    "type": "food",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "5f938fbb91d71e4ac3d0e80c2a265d2a",
+    "nutrition": { "carbohydrate": { "net": 15, "units": "grams" } },
+    "origin": {
+      "id": "10FF85F3-7DC1-455B-8536-ADAA2D8F83CA",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKMetadataKeySyncIdentifier": "666333B5-3BC8-45CD-B056-6FA4BFACE2AB",
+      "HKMetadataKeySyncVersion": 1,
+      "com.loopkit.AbsorptionTime": 10800,
+      "com.loopkit.CarbKit.HKMetadataKey.UserCreatedDate": "2023-06-13T02:00:05.442Z"
+    },
+    "time": "2023-06-13T02:00:05.442Z",
+    "type": "food",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "2870a75e265e0dd381139fbb40348b25",
+    "nutrition": { "carbohydrate": { "net": 45, "units": "grams" } },
+    "origin": {
+      "id": "F5C345FA-F923-48DA-A907-0AA7D415450E",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKMetadataKeySyncIdentifier": "A737E1D8-4D0F-4753-875C-18C1AFA7ED62",
+      "HKMetadataKeySyncVersion": 1,
+      "com.loopkit.AbsorptionTime": 10800,
+      "com.loopkit.CarbKit.HKMetadataKey.UserCreatedDate": "2023-06-13T01:21:28.011Z"
+    },
+    "time": "2023-06-13T01:21:22.172Z",
+    "type": "food",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  }
+]
