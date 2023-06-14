@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useLayoutEffect } from "react";
 import * as d3 from "d3";
 import glucose from "../../tidepool_loader/cbg.json";
 
@@ -10,7 +10,7 @@ interface TimeSeriesData {
 export const Chart = () => {
   const chartRef = useRef<SVGSVGElement>(null);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const svg = d3.select(chartRef.current);
 
     const margin = { top: 20, right: 20, bottom: 40, left: 40 };
@@ -22,21 +22,19 @@ export const Chart = () => {
       date: new Date(d.time),
       value: d.value,
     }));
-    // const data = [
-    //   { date: new Date("2023-01-01"), value: 5 },
-    //   { date: new Date("2023-02-01"), value: 6 },
-    //   { date: new Date("2023-03-01"), value: 6.5 },
-    //   { date: new Date("2023-04-01"), value: 7 },
-    //   { date: new Date("2023-05-01"), value: 5.5 },
-    //   { date: new Date("2023-06-01"), value: 5 },
-    // ];
+    const max = data.reduce(function (prev, current) {
+      return prev.value > current.value ? prev : current;
+    }).value; //returns object
 
     const xScale = d3
       .scaleTime()
       .domain(d3.extent(data, (d) => d.date) as [Date, Date])
       .range([0, innerWidth]);
 
-    const yScale = d3.scaleLinear().domain([0, 16]).range([innerHeight, 0]);
+    const yScale = d3
+      .scaleLinear()
+      .domain([0, max <= 16.6 ? 16.6 : 22.2])
+      .range([innerHeight, 0]);
 
     const line = d3
       .line<{ date: Date; value: number }>()
@@ -52,11 +50,24 @@ export const Chart = () => {
     g.append("rect")
       .attr("class", "range-background")
       .attr("x", 0)
+      .attr("y", yScale(max <= 16.6 ? 16.6 : 22.2))
+      .attr("width", innerWidth)
+      .attr("height", yScale(10.1) - yScale(max <= 16.6 ? 16.6 : 22.2))
+      .classed("fill-yellow-200 opacity-[.20]", true);
+    g.append("rect")
+      .attr("class", "range-background")
+      .attr("x", 0)
+      .attr("y", yScale(3.9))
+      .attr("width", innerWidth)
+      .attr("height", yScale(0) - yScale(3.9))
+      .classed("fill-red-200 opacity-[.40]", true);
+    g.append("rect")
+      .attr("class", "range-background")
+      .attr("x", 0)
       .attr("y", yScale(10))
       .attr("width", innerWidth)
       .attr("height", yScale(4) - yScale(10))
-      .classed("green-200 opacity-30", true)
-      .style("fill-opacity", 0.3);
+      .classed("fill-lime-900 opacity-[.15]", true);
 
     // g.append("path").datum(data).attr("d", line);
     g.selectAll("circle")
@@ -66,11 +77,7 @@ export const Chart = () => {
       .attr("cx", (d) => xScale(d.date))
       .attr("cy", (d) => yScale(d.value))
       .attr("r", 3)
-      .classed("dotted", true)
-      .style("fill", (d) => d.value >= 4 && d.value <= 10 && "black")
-      .style("fill", (d) => d.value > 10 && d.value <= 13 && "goldenrod")
-      .style("fill", (d) => d.value > 13 && "red")
-      .style("fill", (d) => d.value < 4 && "red");
+      .classed("dotted fill-black", true);
 
     g.append("g")
       .attr("transform", `translate(0,${innerHeight})`)
@@ -88,14 +95,15 @@ export const Chart = () => {
       .attr("x", -innerHeight / 2)
       .attr("y", -margin.left + 15)
       .attr("text-anchor", "middle")
-      .text("Blood Glucose (mmol)");
+      .text("Blood Glucose (mmol/L)");
   }, []);
 
   return (
     <div className="w-auto h-96 m-10">
       <h3 className="text-2xl font-semibold leading-6 text-gray-900 text-center">
-        Todays Blood Glucose Data
+        Blood Glucose Data
       </h3>
+      <p className="text-sm text-center">Past 24 Hours</p>
       <svg ref={chartRef} className="w-full h-full"></svg>
     </div>
   );
