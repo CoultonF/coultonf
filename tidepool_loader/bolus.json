@@ -1,1 +1,3614 @@
-[]
+[
+  {
+    "id": "a25d9516d286723dc921a6f40df6f70c",
+    "normal": 0.05,
+    "origin": {
+      "id": "ECCCB6AB-E410-405D-9A54-DCC48E4F6AC0",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31345430333a32333a34355a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-14T03:23:45.565Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "18d64d84d8c20f2cc1325edfa0239bd3",
+    "normal": 0.05,
+    "origin": {
+      "id": "BC19CE72-4C47-4722-9C82-43B352EE9D62",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31345430333a31383a34345a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-14T03:18:44.267Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "1ec0c92b54f2e364585bd75e110b2bb1",
+    "normal": 0.05,
+    "origin": {
+      "id": "A5623996-9DC4-4198-AC17-2A82F43D775E",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31345430333a31333a34365a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-14T03:13:46.719Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "e87c9cdebf02dc48352369aa4745920d",
+    "normal": 0.05,
+    "origin": {
+      "id": "8936C8E3-6F9C-46B5-AD48-7B7D40794693",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31345430333a30383a34375a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-14T03:08:47.4Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "84562afb397565f3f0a9d181e269b895",
+    "normal": 0.05,
+    "origin": {
+      "id": "FA7B25B8-C4FF-4793-98D8-B40AE7E4D4D6",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31345430333a30333a34345a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-14T03:03:44.918Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "c7fab911631a9d5e3edba9e9733bd094",
+    "normal": 0.05,
+    "origin": {
+      "id": "5F2A9B99-F1E0-4FDB-86F8-22EE41EC5914",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31345430323a34333a34325a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-14T02:43:42.372Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "e30144029f9967b32ae87784ddf59b7a",
+    "normal": 3.6,
+    "origin": {
+      "id": "72FDA567-ED7E-4FA3-B3FE-DB86F4298C56",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320332e3620323032332d30362d31345430323a33383a30345a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 0,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-14T02:38:04.323Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "2f360bd0e1bf74e2fa301ea390abb92d",
+    "normal": 0.05,
+    "origin": {
+      "id": "286E3E7D-EC96-4A50-8929-A0E6457EBD15",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31345430313a32333a34325a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-14T01:23:42.105Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "52c4997332c587bf7d053cac8ecde564",
+    "normal": 3.65,
+    "origin": {
+      "id": "F7544C59-27D2-4B35-84B0-5C3728B1C812",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320332e363520323032332d30362d31345430313a31383a31325a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 0,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-14T01:18:12.561Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "d13d0cb8be0e965f324bd6c609e1421e",
+    "normal": 0.1,
+    "origin": {
+      "id": "BC5561C7-5A7A-4A95-B8D6-AC2C00C7295D",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3120323032332d30362d31335432323a35333a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T22:53:40.914Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "e3affb4fdc32b23d5f62079a0b855ec7",
+    "normal": 0.15,
+    "origin": {
+      "id": "B949979E-09D0-4A2C-8A4F-AFB7FA0614F0",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e313520323032332d30362d31335432323a34383a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T22:48:41.362Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "ce47b01d1bbc8dc38c33285e193c7db8",
+    "normal": 0.15,
+    "origin": {
+      "id": "8B1C102D-C56C-4DBD-864D-F3E412205419",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e313520323032332d30362d31335432323a34333a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T22:43:41.714Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "d3582279e4565433ed25af9ee798127d",
+    "normal": 0.15,
+    "origin": {
+      "id": "2504AEBB-179D-4485-8ADA-C8B78D239ABA",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e313520323032332d30362d31335432323a33383a34325a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T22:38:42.157Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "9ebfefe0d2f6ffeb04efacf09fbcf5a6",
+    "normal": 0.2,
+    "origin": {
+      "id": "3022D790-2871-474F-81D5-F3502E7256FA",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3220323032332d30362d31335432323a33333a34335a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T22:33:43.627Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "82b3384f84135493b28af9676e313f0b",
+    "normal": 0.35,
+    "origin": {
+      "id": "A632C504-FA64-458F-930A-31F73D7F42E5",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e333520323032332d30362d31335432323a32383a34345a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T22:28:44.773Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "cb89237249a0095c40c80a975df211d2",
+    "normal": 0.05,
+    "origin": {
+      "id": "8B66644A-8F53-412F-9034-A84D50BCFE8D",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335432313a30333a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T21:03:41.476Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "30a2c5820b2b2cbb74003997c04cf309",
+    "normal": 0.05,
+    "origin": {
+      "id": "686DD250-2D7F-4C55-96B9-48EC7DAD6FFC",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335432303a35383a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T20:58:41.363Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "de44d0a44a89c3684b67089793159f5f",
+    "normal": 0.05,
+    "origin": {
+      "id": "E6CB89C9-1CB9-40A4-9CB9-B4CF45A28215",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335432303a35333a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T20:53:41.475Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "9ad5df768dd9908588a94b8c6d613199",
+    "normal": 0.05,
+    "origin": {
+      "id": "0903823B-6462-4C29-9A23-0D605FD34336",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335432303a34383a35335a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T20:48:53.334Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "7e5e1e95440eb0299a2ea42a71169285",
+    "normal": 0.05,
+    "origin": {
+      "id": "B7A6E0A3-4FB7-45D6-BF12-E699BC5E943F",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431383a35383a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T18:58:41.201Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "959551f95fcafba1e603666b9195a963",
+    "normal": 0.15,
+    "origin": {
+      "id": "0F46F2FD-CBFE-4FF1-9CC0-78D49F8B7098",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e313520323032332d30362d31335431383a35333a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T18:53:40.583Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "090bb1539d639539d1556f612128759a",
+    "normal": 0.15,
+    "origin": {
+      "id": "439D0BDA-7B85-41F3-86B8-99B14AFDF17A",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e313520323032332d30362d31335431383a34383a34355a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T18:48:45.293Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "0ab068b21ec0882c2438faad60c7eec5",
+    "normal": 0.05,
+    "origin": {
+      "id": "8B938E64-B47E-4D87-AA99-A0C9C8D82BE7",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431383a31383a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T18:18:41.154Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "5873f5ed6bb67a34c3549fa0bef62d42",
+    "normal": 8.1,
+    "origin": {
+      "id": "42B3284F-9F76-49C6-B3EF-A7B84F032D4D",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320382e3120323032332d30362d31335431383a31323a31305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 0,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T18:12:10.227Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "051471e514a49c04f7a4b463b846772e",
+    "normal": 0.05,
+    "origin": {
+      "id": "4E27E2A6-2569-435E-80FE-910BDB77C99A",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431373a31383a34345a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T17:18:44.88Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "fba5ab8da72491dfeea049a2635970d9",
+    "normal": 0.05,
+    "origin": {
+      "id": "EA6B1141-30B0-41B5-BE9A-A092D092B487",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431373a31333a34335a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T17:13:43.421Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "b4fa9ba79f04fcdd6fb6a2f136a0c20b",
+    "normal": 0.3,
+    "origin": {
+      "id": "D16CF203-653B-4B67-81E5-243CE7661B6D",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3320323032332d30362d31335431373a30373a30335a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 0,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T17:07:03.743Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "1d86462cdd221f823b34bcb45d336365",
+    "normal": 0.05,
+    "origin": {
+      "id": "B78E691B-ABDA-452C-90EB-0D5A024D8B11",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431363a33383a34345a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T16:38:44.748Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "1b8606f9358fd95daf113a80de7d09c4",
+    "normal": 0.05,
+    "origin": {
+      "id": "48456FE5-37B2-4A03-8D94-9B122FE9C30B",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431363a33333a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T16:33:41.481Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "60217833415431241eb944d72e826050",
+    "normal": 0.9,
+    "origin": {
+      "id": "3CC8021C-7DAA-4CBD-A99D-167BC4B2EB2A",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3920323032332d30362d31335431363a31353a30365a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 0,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T16:15:06.08Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "96139fe429cb2fc0ad966a16be99eb44",
+    "normal": 0.05,
+    "origin": {
+      "id": "B5D105B5-C04F-47AE-BB41-AE0FBC29E90A",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431353a35333a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T15:53:40.249Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "2003f4dc060a0a2f26a98a0716e6fdab",
+    "normal": 0.05,
+    "origin": {
+      "id": "FB15C4D7-285E-492F-9F55-F53ABB894CD1",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431353a32383a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T15:28:40.18Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "a5f5ef496e60202321d2d66e5d91d4bf",
+    "normal": 0.05,
+    "origin": {
+      "id": "F490C0A7-2EBA-440F-A54C-D25010A86103",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431353a32333a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T15:23:41.648Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "3a3f45beb60c8f44282f000f4133473d",
+    "normal": 0.2,
+    "origin": {
+      "id": "90438FCB-EFC3-434D-82B1-CF52E07B0718",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3220323032332d30362d31335431343a32383a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T14:28:40.043Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "d8f945ce2d8c17bc3f99bbebb94a5f4f",
+    "normal": 0.25,
+    "origin": {
+      "id": "3C5923C7-B09B-4C29-8F8E-0F128D21592A",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e323520323032332d30362d31335431343a32333a34335a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T14:23:43.265Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "5e5eb1c7b4796b5e829b10b88c7a611c",
+    "normal": 0.1,
+    "origin": {
+      "id": "AD94B99B-42AF-48CB-80DE-38845C36FFF9",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3120323032332d30362d31335431343a31383a34395a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T14:18:49.899Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "26d6325a6b4290f0d1b2e6989f892bde",
+    "normal": 0.05,
+    "origin": {
+      "id": "EFB31256-0534-4A60-878A-BA825C2E1882",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431343a30383a34375a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T14:08:47.533Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "301249e6584aca7fc027631bdb488755",
+    "normal": 0.05,
+    "origin": {
+      "id": "2FF9847C-62C5-4358-AE2E-093DA71EFDAD",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431343a30333a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T14:03:40.676Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "8dd1b42a8cac08889c5b9fd3d8d2faa7",
+    "normal": 0.05,
+    "origin": {
+      "id": "82C4DA8E-B3B8-4C26-9860-59009515C2F8",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431333a35383a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T13:58:40.342Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "6d574a953eb070d5a6b3f0cb79cc536d",
+    "normal": 0.05,
+    "origin": {
+      "id": "1F4D18F9-0479-43BC-9A30-6524BE851D59",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431333a35333a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T13:53:40.771Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "176c8cf8d64684e897625c4df07c7640",
+    "normal": 0.05,
+    "origin": {
+      "id": "081EBFA5-20EB-4EC7-900A-4E6048EEA66E",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431333a34383a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T13:48:40.675Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "d5267da9a2b26e6c864eb0573bd575e9",
+    "normal": 0.05,
+    "origin": {
+      "id": "3D66631E-022B-4017-99BD-8555380C86F0",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431333a33333a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T13:33:40.797Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "0c3b64efa329be61a6df7369fe772fa5",
+    "normal": 0.05,
+    "origin": {
+      "id": "65C50FF6-CE99-4119-B7A9-EF45F9F6F053",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431333a32383a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T13:28:41.032Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "20b472164366f4b5db43c039d1c4fbcf",
+    "normal": 0.05,
+    "origin": {
+      "id": "FA4F20E9-F577-4E7D-8698-6807DCDF5374",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431333a30383a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T13:08:40.328Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "0234233da8f96997d3e81201883095fd",
+    "normal": 0.05,
+    "origin": {
+      "id": "B5281A5D-C48E-43E8-A5DD-7FE49676B632",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431323a34383a34375a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T12:48:47.289Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "a46f3efedf920eb3a7b332c26aaca425",
+    "normal": 0.05,
+    "origin": {
+      "id": "3DC31D86-6B42-49B1-8AA9-161B7ABA9606",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431323a33383a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T12:38:40.906Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "b2a67166959c03c22a0fb55dc5a165e5",
+    "normal": 0.05,
+    "origin": {
+      "id": "6E53B1EE-7518-46F2-B129-2BAEFC20433A",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431323a31383a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T12:18:40.815Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "9ef75cdbfa56ef12a6c358e6d7c0343c",
+    "normal": 0.05,
+    "origin": {
+      "id": "78F0FCE0-4BF9-486E-9096-1BCE58045625",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431323a31333a34325a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T12:13:42.474Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "27358c1373ac074fb87ab85cfdf483bc",
+    "normal": 0.05,
+    "origin": {
+      "id": "EA5A5783-58BA-4C39-846F-8979B8544721",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431323a30383a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T12:08:40.622Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "d5dc43c0980bfed4e8c6ec2ab0a5e633",
+    "normal": 0.05,
+    "origin": {
+      "id": "80BA48B5-CD99-4C68-8A9B-73FA411D4F5D",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431313a30333a33395a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T11:03:39.641Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "d4087d8e8e23a7f5d594070c0783cb46",
+    "normal": 0.05,
+    "origin": {
+      "id": "FF57167A-CC28-4752-91B3-698715F22B86",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431303a32333a34345a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T10:23:44.38Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "d5ce228fc0523a1b47e17410f682f9d5",
+    "normal": 0.05,
+    "origin": {
+      "id": "D9B2A36C-4D01-4632-A362-A83708007996",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335431303a31383a34335a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T10:18:43.439Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "14d63e808086498e8a3bb7094f1966e0",
+    "normal": 0.05,
+    "origin": {
+      "id": "87237130-145E-4E1E-99AA-3DFE21EE4104",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335430393a34333a35305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T09:43:50.615Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "27ba7517636e661d7b9aad0604e83250",
+    "normal": 0.05,
+    "origin": {
+      "id": "2ED71644-ED76-4F02-B9DE-F325A0367FF3",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335430373a34333a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T07:43:40.171Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "d821c3cd1b3c899ba3619f0db5f441c7",
+    "normal": 0.1,
+    "origin": {
+      "id": "D35E4A20-4273-4669-BE63-BFB5E2CA0FA2",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3120323032332d30362d31335430373a33383a33395a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T07:38:39.435Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "e0fc4553291fa1842cc2948edc754b1f",
+    "normal": 0.05,
+    "origin": {
+      "id": "C9578B84-BFFA-4EC5-AF0F-44D31451E199",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335430373a33333a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T07:33:40.243Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "a85b5c936efbc722e677821afb963271",
+    "normal": 0.1,
+    "origin": {
+      "id": "EA3DDC9D-A34C-42C0-9E32-90B83F89FE67",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3120323032332d30362d31335430373a32383a33395a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T07:28:39.593Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "895f160723edf91e15fc74d27ceb5f86",
+    "normal": 0.05,
+    "origin": {
+      "id": "B064AF9E-B53B-4AF8-85D0-564975B9D5E2",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335430373a32333a34325a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T07:23:42.51Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "b7de5f0aedb3a53306b005b7dc424085",
+    "normal": 0.05,
+    "origin": {
+      "id": "09AE8E8E-743E-4B1A-B1B4-13619CB49EB1",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335430363a31333a34335a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T06:13:43.004Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "c51f0f905783180908ef8eb096ce43a1",
+    "normal": 0.05,
+    "origin": {
+      "id": "5BF56F64-4326-4734-997C-80679D61E85A",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335430363a30383a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T06:08:41.206Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "47d6eabc3c796e6b195d27c6afe00155",
+    "normal": 0.1,
+    "origin": {
+      "id": "50CE3C6F-950B-4DC0-B7C8-223A5718124B",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3120323032332d30362d31335430363a30333a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T06:03:41.727Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "13e008a965b9eb4b1819153b4bd140bb",
+    "normal": 0.1,
+    "origin": {
+      "id": "D143E88A-57A6-4459-A9E3-DDB9B573B168",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3120323032332d30362d31335430353a35383a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T05:58:41.71Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "8044b743308fedd921a44f7d56a0ac0c",
+    "normal": 0.1,
+    "origin": {
+      "id": "863567DF-1843-496C-BB25-8C582CBF18E5",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3120323032332d30362d31335430353a35333a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T05:53:40.046Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "4445bc381b447ca69850923018b6e806",
+    "normal": 0.1,
+    "origin": {
+      "id": "5B8E71F7-F0DE-45EC-969C-106ACF52B374",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3120323032332d30362d31335430353a34383a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T05:48:40.059Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "c54ae04a895f3b07516d0a08baa52c2d",
+    "normal": 0.25,
+    "origin": {
+      "id": "F96B6C4C-B64D-4FBB-BAAE-8D6B42B0453F",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e323520323032332d30362d31335430353a33343a32335a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 0,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T05:34:23.426Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "bc86ac33f319cafbdb10833e7a03d203",
+    "normal": 0.25,
+    "origin": {
+      "id": "7F83831C-6D88-43AE-9AC3-EAF20005994C",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e323520323032332d30362d31335430353a33343a30315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 0,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T05:34:01.556Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "9c7953e10a1566bf420f61490e4b25d8",
+    "normal": 0.2,
+    "origin": {
+      "id": "1D2F43B1-1DA2-428B-9609-4610EAA43664",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3220323032332d30362d31335430353a33333a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T05:33:40.36Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "a293c8cae6ba85013148e26a1485a11c",
+    "normal": 0.1,
+    "origin": {
+      "id": "2232FD62-1D24-4CAD-B57A-6D15D6C683D1",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCE",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3120323032332d30362d31335430353a32383a34375a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T05:28:47.586Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "a84ed952cdbb7c662c328bdeddd6949d",
+    "normal": 0.85,
+    "origin": {
+      "id": "41D52175-8278-4C8E-A6E7-0E5556DAE4D4",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e383520323032332d30362d31335430333a32333a34345a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 0,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T03:23:44.66Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "085cb3f1e878e451786a8fbc74f94d12",
+    "normal": 1.3,
+    "origin": {
+      "id": "A199B391-7370-489B-9B49-1DE1E92C9D02",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320312e3320323032332d30362d31335430333a31393a34325a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 0,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T03:19:42.969Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "28d274b684a16a25c0ffc81530112be3",
+    "normal": 0.15,
+    "origin": {
+      "id": "5C91E47F-07C2-485B-913B-A7A640B5A1EB",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e313520323032332d30362d31335430333a31333a34395a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 0,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T03:13:49.18Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "6c27c6ac0dce43c33bca9856fe272e4e",
+    "normal": 0.1,
+    "origin": {
+      "id": "5FC534CA-B797-4F10-BACD-5B1E38D9F2BC",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3120323032332d30362d31335430333a31333a33395a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T03:13:39.206Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "b028af1edc8e16ceb93ff894e93d1c6c",
+    "normal": 0.1,
+    "origin": {
+      "id": "53D406B8-C032-413A-942D-0D29FDAF9299",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3120323032332d30362d31335430333a30383a34345a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T03:08:44.969Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "66d36446a16f6f17b14600394e49fb39",
+    "normal": 0.1,
+    "origin": {
+      "id": "E620F64E-5B9A-4A08-BE61-36617C3FDA10",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3120323032332d30362d31335430333a30333a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T03:03:41.312Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "1238d291a69acbb0618d14dd9828f544",
+    "normal": 0.1,
+    "origin": {
+      "id": "D54D0FFE-11F5-48B8-A82B-442F5490FE77",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3120323032332d30362d31335430323a35383a34305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T02:58:40.741Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "5fcacbdc5856b20e73f8fb5955cb8781",
+    "normal": 1.15,
+    "origin": {
+      "id": "3F87A8AC-F40D-4DF9-8B51-EC993F3C0B71",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320312e313520323032332d30362d31335430323a30303a30385a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 0,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T02:00:08.854Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "9772c0474b13e158915a6d9ff07c7fbb",
+    "normal": 0.05,
+    "origin": {
+      "id": "B3238292-B42F-42FF-B3F0-D2945397CE00",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335430313a35333a33385a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T01:53:38.68Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "bddbf7c1a7b5e86fc3cf0a95aca340c9",
+    "normal": 0.05,
+    "origin": {
+      "id": "7DDD04C7-4D91-4DC8-9A2D-58205AC54F74",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335430313a34383a34335a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T01:48:43.634Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "d96e8429d90410dc2ce7405dbe2486f4",
+    "normal": 3.8,
+    "origin": {
+      "id": "8F79A67E-A8F1-498E-9097-CD3394C337D3",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320332e3820323032332d30362d31335430313a32313a33305a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 0,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T01:21:30.772Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "452a392dd43fac1f514e4bf6ebfc5cfd",
+    "normal": 0.05,
+    "origin": {
+      "id": "3E3A0259-52B0-4195-9149-DF087DCE50FC",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335430313a31333a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T01:13:41.589Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "c6e21bdcf288f0d7f8009364f5feab53",
+    "normal": 0.05,
+    "origin": {
+      "id": "9660AC7F-B945-46F5-880C-5599715E4A0D",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31335430313a30383a34325a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-13T01:08:42.09Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "8fdb10eb9bb0183fe541f5eec79545d5",
+    "normal": 0.05,
+    "origin": {
+      "id": "0D2978B9-97A4-4282-AE50-AA8CD16061B5",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e303520323032332d30362d31325432333a34383a34335a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-12T23:48:43.043Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "fed992c3d94bb8b424ff06764c275826",
+    "normal": 0.15,
+    "origin": {
+      "id": "7BA7EA9E-B046-4506-AB1F-C55EBCF63825",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e313520323032332d30362d31325432333a34333a33395a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-12T23:43:39.017Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "ac94f59dfc32c56acea9ecb516da0dfd",
+    "normal": 0.3,
+    "origin": {
+      "id": "20F0073C-D68D-4703-9978-7A56AC01323C",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3320323032332d30362d31325432333a33383a33395a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-12T23:38:39.356Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "e392c6e20dc63e8e1e0761a1eeaf1544",
+    "normal": 0.3,
+    "origin": {
+      "id": "59F57562-F514-4B9B-AE77-6448B218B29B",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3320323032332d30362d31325432333a33333a34315a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-12T23:33:41.437Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  },
+  {
+    "id": "478bfae22af4d49119a2809c62aa88f9",
+    "normal": 0.1,
+    "origin": {
+      "id": "63CEF531-9D99-4190-80BA-D321332087E6",
+      "name": "com.apple.HealthKit",
+      "payload": {
+        "device": {
+          "firmwareVersion": "4.10.0 1.4.0",
+          "hardwareVersion": "4",
+          "localIdentifier": "173E3FCD",
+          "manufacturer": "Insulet",
+          "model": "Dash",
+          "name": "Omnipod-Dash",
+          "softwareVersion": "1.0"
+        },
+        "sourceRevision": {
+          "operatingSystemVersion": "16.4.1",
+          "productType": "iPhone13,1",
+          "source": {
+            "bundleIdentifier": "com.L7J48HW4B6.loopkit.Loop",
+            "name": "Loop"
+          },
+          "version": "2"
+        }
+      },
+      "type": "service"
+    },
+    "payload": {
+      "HKInsulinDeliveryReason": 2,
+      "HKMetadataKeySyncIdentifier": "626f6c757320302e3120323032332d30362d31325432333a32383a33395a",
+      "HKMetadataKeySyncVersion": 1,
+      "HasLoopKitOrigin": 1,
+      "com.loopkit.InsulinKit.MetadataKeyAutomaticallyIssued": 1,
+      "com.loopkit.InsulinKit.MetadataKeyInsulinType": "Novolog",
+      "com.loopkit.InsulinKit.MetadataKeyManuallyEntered": 0
+    },
+    "subType": "normal",
+    "time": "2023-06-12T23:28:39.93Z",
+    "type": "bolus",
+    "uploadId": "6c9617f19a2b5a4406186219208a2951"
+  }
+]
